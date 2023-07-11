@@ -2,7 +2,7 @@
 Steps to run:
 Before: make sure you have node JS installed on ur machine
 
-1.Clone repository 
+1.Clone repository  and cd in qa-test/qa-test
 2. use the following command to install node modules npm i
 
 
