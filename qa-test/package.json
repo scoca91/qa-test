@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "app:open": "npx cypress open",
+    "uiTests:run": "npx cypress run --e2e --spec cypress/e2e/UITests//*.cy.js",
+    "apiTests:run": "npx cypress run --e2e --spec cypress/e2e/APITests/*.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
